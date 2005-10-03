@@ -1,3 +1,4 @@
+# TODO: Name vs filename
 Summary:	Mount ISO image
 Summary(pl):	Program do montowania obrazów p³yt
 Name:		mount-iso
@@ -19,13 +20,11 @@ CCD/IMG/SUB (CloneCD), XDVDFS (XBOX) images.
 %description -l pl
 Mount ISO Image jest zaawansowanym skryptem, który pozwala na
 wykonywanie wielu operacji na plikach ISO, NRG (Nero Burning ROM), UDF
-(DVD), CUE/BIN, CCD/IMG/SUB (CloneCD), XDVDFS (XBOX), które s±
+(DVD), CUE/BIN, CCD/IMG/SUB (CloneCD), XDVDFS (XBOX) bêd±cymi
 obrazami p³yt.
 
 %prep
 %setup -q -n %{name}-image-%{version}
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -38,5 +37,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-
 %attr(755,root,root) %{_bindir}/install.sh
