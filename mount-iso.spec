@@ -5,7 +5,7 @@ Name:		mount-iso
 Version:	0.9
 Release:	0.1
 License:	GPL
-Group:		utils
+Group:		Applications/System
 Source0:	http://www.jinjiru.ru/files/mountiso/%{name}-%{version}.tar.bz2
 # Source0-md5:	e2e126952c3a07c6a682bdb5b1f4ebc3
 URL:		http://mountiso.jinjiru.ru/
