@@ -1,4 +1,3 @@
-# TODO: Name vs filename
 Summary:	Mount ISO image
 Summary(pl):	Program do montowania obrazów p³yt
 Name:		mount-iso
