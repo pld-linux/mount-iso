@@ -1,13 +1,13 @@
 Summary:	Mount ISO image
 Summary(pl):	Program do montowania obrazów p³yt
 Name:		mount-iso
-Version:	0.9
-Release:	0.1
+Version:	0.9.1
+Release:	1
 License:	GPL
 Group:		Applications/System
-Source0:	http://www.jinjiru.ru/files/mountiso/%{name}-%{version}.tar.bz2
-# Source0-md5:	e2e126952c3a07c6a682bdb5b1f4ebc3
-URL:		http://mountiso.jinjiru.ru/
+Source0:	http://www.kde-apps.org/content/files/11577-%{name}-%{version}.tar.bz2
+# Source0-md5:	b8ef4831b525d575c6317b5df9eb777b
+URL:		http://www.kde-apps.org/content/show.php?content=11577
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -23,7 +23,7 @@ wykonywanie wielu operacji na plikach ISO, NRG (Nero Burning ROM), UDF
 obrazami p³yt.
 
 %prep
-%setup -q -n %{name}-image-%{version}
+%setup -q
 
 %install
 rm -rf $RPM_BUILD_ROOT
