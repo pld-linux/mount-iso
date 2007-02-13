@@ -1,5 +1,5 @@
 Summary:	Mount ISO image
-Summary(pl.UTF-8):   Program do montowania obrazów płyt
+Summary(pl.UTF-8):	Program do montowania obrazów płyt
 Name:		mount-iso
 Version:	0.9.1
 Release:	1
